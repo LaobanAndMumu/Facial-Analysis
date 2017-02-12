@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <a href="{% url 'index' %}">Back to analysis</a>
+    <h3>{{analysis.different}}</h3>
+    <p>{{analysis.attribute}} feature</p>
+    <h4>Description:</h4>
+    <p>{{analysis.description}}</p>
+
+{% endblock %}

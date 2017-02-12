@@ -1,0 +1,31 @@
+html,body,{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+
+html {
+	background:url("woodtexture.jpg");
+	overflow: hidden;
+}
+
+
+body{
+	margin-top:5em;
+	font: 100% "Lucida Handwriting",Arial,sans-serif;
+	text-align:center;
+	background-color:white;
+	opacity:0.6;
+}
+
+h1{
+	/*light blue*/
+	color: #769DA8;
+	font-weight: bold;
+	font-size:5em;
+}
+p{
+    font-size:3em;
+}
+
